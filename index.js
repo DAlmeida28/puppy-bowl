@@ -129,7 +129,7 @@ const renderNewPlayer = () => {
 }
 
 const submitNewPlayer = async () => {
-  const submitPuppy = await fetch(`https://fsa-puppy-bowl.herokuapp.com/api/2501-ftb-et-web-ft-helpdesk/players`,
+  const submitPuppy = await fetch(`https://fsa-puppy-bowl.herokuapp.com/api/2501-ftb-et-web-ft/players`,
     {
       method: `POST`,
       headers: {
@@ -142,11 +142,6 @@ const submitNewPlayer = async () => {
     }
   );
   const result = await submitPuppy.json();
-  console.log(result);
-  
-
+  console.log(result); 
 }
-  // console.log(`${document.querySelector(`#PlayerName`).value}`);
-  // console.log(`new player test`);
-
 getPuppies();

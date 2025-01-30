@@ -142,6 +142,6 @@ const submitNewPlayer = async () => {
     }
   );
   const result = await submitPuppy.json();
+  console.log(result); 
 }
-
 getPuppies();

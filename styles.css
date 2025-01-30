@@ -1,0 +1,21 @@
+h1 {
+  background-color: fdf0d5;
+  color: 003049;
+}
+
+main {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color:fdf0d5 ;
+}
+
+h4{
+  background-color:fdf0d5;
+  color: 669bbc;
+}
+
+li {
+  background-color: 669bbc;
+  color: 003049;
+}
